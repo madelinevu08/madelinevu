@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+nav a:hover {
+    padding: 6px 0; 
+}
+     nav {
+       font-family:'Salo Variable';
+       font-size: 1.6em;
+     }
+     #button {
+       padding-left: 50px;
+       padding-right:50px;
+       padding-top:2px;
+       padding-bottom:2px;
+       font-size: 1.2em;
+       color: #ffffff;
+     }
+     .container-fluid, .container {
+       font-family: 'FF-cocon', 'Salo Variable', Cambria;
+       font-size: 1.1em;
+     }
+     
+     .bg-teal{
+       background-color: #326D73;
+     }
+     .bg-navy {
+       background-color: #254559;
+     }
+     .bg-yellow {
+       background-color: #DEC26F;}
+     .parallax {
+       background-image: url(../images/ocean.jpg);
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       width:100%;
+       margin: 0;
+     }
+     #seagrass {
+       margin-top: 8%;
+     }

@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+
+body {
+	background-color:#d5d5d5;
+}
+.bg-tan {
+	background-color: #e6d1b2;
+}
+.nav-link {
+    color: #1A471D;
+    font-family: "Berlin Sans FB Demi","Berlin Sans FB";
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+.banner {
+    background-image: url(../images/jungleleavesbanner.jpg);
+    font-family: "Berlin Sans FB Demi", "Berlin Sans FB";
+    text-align: left;
+    font-size: 55px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 71px;
+}
+.headings {
+    color: #1A471D;
+    font-family: "Berlin Sans FB Demi", "Berlin Sans FB", Calibri;
+}
+
+.bg-teal {
+    background-color: #197793;
+}
+
+.hamburger {
+    background-image: url(../images/hamburger.png);
+    background-size: cover;
+}

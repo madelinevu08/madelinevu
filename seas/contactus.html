@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sustainable Seas</title>
+    <link rel="icon" type="image/x-icon" href="images/turtlelogo.png">
+    <link rel="stylesheet" href="css/seasstyles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/muz6vlb.css">
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var form = document.querySelector("form");
+        var donateCheckbox = document.getElementById("donate");
+    
+        form.addEventListener("submit", function(event) {
+          if (donateCheckbox.checked) {
+            form.action = "donate.html";
+          } else {
+            form.action = "confirm.html";
+          }
+        });
+      });
+    </script>
+  </head>
+  <body class="bg-teal">
+    <div class="container-fluid" id="mainContent"> <!--mainContent starts-->
+      <header class="bg-navy">
+        
+        <div class="row">
+            
+            <nav class="col-12 order-md-2 navbar navbar-dark navbar-expand-lg">
+              <div class="container-fluid">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item">
+                      <a class="hover-shadow nav-link fs-4 px-4" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="hover-shadow nav-link fs-4 px-4 text-nowrap" href="thewhy.html">The Why</a>
+                   </li>
+                    <li class="nav-item">
+                      <a class="hover-shadow nav-link fs-4 text-nowrap px-4" href="https://conserveturtles.org/">About the Sea Turtles</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="hover-shadow nav-link fs-4 text-nowrap px-4" href="https://www.nature.org/en-us/what-we-do/our-priorities/protect-water-and-land/land-and-water-stories/protecting-our-ocean/">Taking Care of Our Seas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="hover-shadow active nav-link fs-4 text-nowrap px-4" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="hover-shadow nav-link fs-4 text-nowrap px-4" href="#">Support the Turtles</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            <figure class="text-center mx-0 mb-0 mt-1">
+                <img src="images/banner.jpg" alt="banner" draggable="false" class="d-none d-md-block img-fluid">
+                <h1 class="d-md-none d-sm-block text-white display-1">Sea Turtles</h1>
+            </figure>
+        </div>  
+    </header>
+        <div class="container-fluid py-5 bg-teal">
+          <div class="row">
+              <div class="col-12">
+                  <h2 class="text-white text-center">Thank you for your interest in saving the sea turtles! If you want to help, contact us below:</h2>
+              </div>
+          </div>
+        <div class="container bg-white border border-2 rounded-2" id="containform">
+          <form class="row" action="confirm.html" method="post">
+                  <div class="col-md-12 col-sm-12 mt-4 mx-auto  px-5">
+                      <label for="fname" class="mb-1 mt-3 form-label">First Name<span class="text-danger">*</span></label>
+                      <input type="text" class="form-control" id="fname" required="">
+                      <label for="lname" class="mb-1 mt-3 form-label">Last Name<span class="text-danger">*</span></label>
+                      <input type="text" class="form-control" id="lname" required="">
+                      <label for="email" class="mb-1 mt-3 form-label">Email<span class="text-danger">*</span></label>
+                      <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="form-control" placeholder="example@gmail.com" id="email" required="">
+                      <label for="phone" class="mb-1 mt-3 form-label">Phone Number<span class="text-danger">*</span></label>
+                      <input type="tel" class="form-control" placeholder="(XXX)-XXX-XXXX" id="phone" required="">
+                  </div>
+                  <div class="col-md-12 col-sm-12 mt-4 mx-auto px-5 ">
+                          <p class="form-text fs-4">How would you like to help?</p>
+                          <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="volunteer">
+                              <label class="form-check-label" for="volunteer">Volunteer</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="educate">
+                              <label class="form-check-label" for="educate">Educate</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="donate">
+                              <label class="form-check-label" for="donate">Donate</label>
+                            </div>
+                            <div class="my-3">
+                              <label for="environmental" class="form-label">Previous Environmental Experience</label>
+                              <textarea class="form-control" id="environmental" rows="3"></textarea>
+                            </div>
+                            <div class="mb-3">
+                              <label for="comments" class="form-label">Questions or Comments?</label>
+                              <textarea class="form-control" id="comments" rows="3"></textarea>
+                            </div>
+                            <input type="submit">
+                            <input type="reset">
+                  </div>
+                  
+          </form>
+        </div>
+    </div>
+        
+        <div class="container-fluid">
+            <footer class="row bg-navy py-2">
+              <p class="text-center text-white">Created by Madeline &#169; October 2024 This site is built for educational purpose in the Web Design class at the ATC.</p>
+            </footer>
+        </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      </body>
+    </html>

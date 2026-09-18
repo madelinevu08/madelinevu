@@ -1,0 +1,103 @@
+@charset "utf-8";
+.bg-dark {
+    background-color: #2F423B !important;
+}
+
+#navicon {
+    width: 96px;
+    height: 60px;
+}
+.nav-link {
+    font-family: 'Copperplate Gothic Light';
+    font-size: 1em;
+    color: rgba(254,240,239,1.00);
+}
+ul.navbar-nav li {
+    padding-left: 30px;
+}
+#slogan {
+    font-family: 'Copperplate Gothic Light';
+    color: rgba(254,240,239,1.00);
+    font-size: 2.75em;
+}
+
+.navbar-brand {
+    background-image: url(../images/stwlogo.png);
+    padding-left: 99px;
+    padding-right: 30px;
+    padding-top: 13px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 64px;
+}
+#bgslogan  {
+    background-color: rgba(75,106,94,1.00);
+}
+
+
+.texttan {
+    color: rgba(254,240,239,1.00);
+}
+
+
+.textgreen {
+    color: rgba(52,135,119,1.00);
+    font-weight: bold;
+}
+
+
+.imgwidth {
+    padding-top: 5px;
+    width: 100px;
+    padding-left: 5px;
+}
+
+.textcolor {
+    color: hsla(4,88%,97%,1.00);
+}
+
+hr {
+	background-color: rgba(75,106,94,1.00);
+}
+
+.bg-light {
+	background-color: rgba(75,106,94,1.00)!important;
+}
+.linkcolor {
+    color: #71A1C8;
+}
+.textshadow {
+    text-shadow: 2.5px 0px #7F7F7F;
+}
+fieldset {
+    border: 4px solid #FEF0EF;
+}
+label {
+    font-size: 1em;
+}
+legend {
+    font-size: 2em;
+}
+
+.textdblue {
+	color:#24279C;
+}
+
+
+#italy {
+}
+#africa {
+}
+#samerica {
+}
+@media screen and (max-width:576px){
+	#vpdesktop {
+		display:none;
+	}
+}
+
+@media screen and (min-width:577px) {
+	#vpmobile{
+		display:none;
+	}
+}
