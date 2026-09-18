@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/stwtemp.dwt" codeOutsideHTMLIsLocked="false" -->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="Luxury Travel, unique experiences">
+	<meta name="description" content="See the World is the best travel agency specializing in luxury travel for all of our customers needs.">
+	<!-- InstanceBeginEditable name="doctitle" -->
+	<title>See the World</title>
+	<style>
+		textarea {
+			width: 200px;
+			height: 100px;
+		}
+	</style>
+	<!-- InstanceEndEditable -->
+	<!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="css/stw-styles.css" rel="stylesheet" type="text/css">
+  <!-- InstanceBeginEditable name="head" -->
+  <!-- InstanceEndEditable -->
+  </head>
+  <body>
+<div class="container-fluid px-0">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <a href="index.html" class="pt-1"><span class="navbar-brand"></span></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	
+      <span class="navbar-toggler-icon" id="navicon"></span>
+  </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  
+<!-- InstanceBeginEditable name="navlinks" -->
+	<ul class="navbar-nav mr-auto">
+      
+      <li class="nav-item">
+        <a href="index.html" class="nav-link">Home </a>
+      </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About Us</a>
+          </li>
+      <li class="nav-item" id="vpdesktop">
+            <a class="nav-link" href="vacationpackages.html">Vacation Packages</a>
+	  </li>
+      <li class="nav-item dropdown" id="vpmobile">
+        <a class="nav-link dropdown-toggle" href="vacationpackages.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Vacation Packages </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="vacationpackages.html#italy">Italy</a>
+              <a class="dropdown-item" href="vacationpackages.html#africa">Africa</a>              <a class="dropdown-item" href="vacationpackages.html#samerica">South America</a>
+            </div>
+          </li>
+          <li class="nav-item active"> <a class="nav-link" href="contactus.html">Contact Us</a></li>
+        </ul> 
+	<!-- InstanceEndEditable -->
+</div>
+  </nav>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 px-0"><img src="images/pexels-jaime-reimer-2662116.jpg" alt="Mountains and Lake" class="img-fluid"></div>
+  </div>
+</div>
+<!-- InstanceBeginEditable name="container" -->
+<div class="container-fluid">
+  <div class="row" id="bgslogan">
+    <div class="col-lg-12">
+      <h1 class="text-center" id="slogan">Travel Awaits Your Luxurious Taste!</h1>
+    </div>
+  </div>
+</div>
+<div class="container-fluid texttan bg-dark">
+<div class="row">
+	<div class="col-12 texttan">
+  		<h2 class="text-center">Contact Us</h2>
+		<p class="text-center">Book your dream vacation with us!</p>
+	</div>
+</div>
+<div class="container-fluid p-5">
+	<form action="https://www.travelinfo.php" id = "travelinfo" method="post">
+		<div class="form-row">
+		<fieldset class="col-xl-6 mx-auto">
+			<legend class="pl-2"><b class="textshadow">Contact Information</b></legend><br>
+
+			<div class="form-row pl-4">
+				<label for="fname">Traveler's First Name<b>*</b></label> 
+				&nbsp;
+				<input name="fname" id="fname" placeholder="First Name" type="text" required>
+		  </div><br>
+			<div class="form-row pl-4">
+				<label for="lname">Traveler's Last Name<b>*</b></label> 
+				&nbsp;
+			  <input name="lname" id="lname" placeholder="Last Name" type="text" required>
+			</div><br>
+
+			<div class="form-row pl-4">
+				<label for="phone">Traveler's Phone Number<b>*</b></label>
+				&nbsp;
+			  <input name="phone" id="phone" placeholder="(xxx) xxx-xxxx" type="tel" pattern="^\(\d{3}\)\s\d{3}-\d{4}" required>
+			</div><br>
+
+			<div class="form-row pl-4">
+<label for="email">Traveler's Email<b>*</b> </label>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <span><input name="contactEmail" type="email" required id="email" placeholder="someone@example.com"></span>
+			  
+			</div><br>
+	<div class="form-row pl-4"><h5><b>Departure Information*</b></h5></div><br>
+			
+	<div class="form-row pl-4">
+		<label for="address">Address<b>*</b>&nbsp;&nbsp;</label>
+      &nbsp;&nbsp;
+      <input name="address" type="text" id="address" required>
+    </div><br>
+
+    <div class="form-row pl-4">
+      <label for="city">City<b>*</b>&nbsp;&nbsp;</label>
+      &nbsp;&nbsp;
+      <input name="city" type="text" id="city" required>
+    </div><br>
+
+	<div class="form-row pl-4">
+		<label for="state">State<b>*</b>&nbsp;&nbsp;</label>
+      &nbsp;&nbsp;
+      <select name="state" size="1" id="state">
+					<option id="alabama">Alabama</option>
+					<option id="alaska">Alaska</option>
+					<option id="arizona">Arizona</option>
+		  			<option id="arkansas">Arkansas</option>
+					<option id="california">California</option>
+					<option id="colorado">Colorado</option>							
+		  			<option id="connecticut">Connecticut</option>
+		  			<option id="delaware">Delaware</option>
+					<option id="florida">Florida</option>
+					<option id="georgia">Georgia</option>
+		  			<option id="hawaii">Hawaii</option>
+					<option id="idaho">Idaho</option>
+					<option id="illinois">Illinois</option>
+		  			<option id="indiana">Indiana</option>
+					<option id="iowa">Iowa</option>
+					<option id="kansas">Kansas</option>
+		  			<option id="kentucky">Kentucky</option>
+					<option id="louisiana">Louisiana</option>
+					<option id="maine">Maine</option>
+		  			<option id="maryland">Maryland</option>
+					<option id="massachusetts">Massachusetts</option>
+					<option id="michigan">Michigan</option>
+		  			<option id="minnesota">Minnesota</option>
+					<option id="mississippi">Mississippi</option>
+					<option id="missouri">Missouri</option>
+		  			<option id="montana">Montana</option>
+					<option id="nebraska">Nebraska</option>
+					<option id="nevada">Nevada</option>
+		  			<option id="newh">New Hampshire</option>
+					<option id="newj">New Jersey</option>
+					<option id="newm">New Mexico</option>
+		  			<option id="newy">New York</option>
+		  			<option id="northc">North Carolina</option>
+		  			<option id="northd">North Dakota</option>
+		  			<option id="ohio">Ohio</option>
+		  			<option id="oklahoma">Oklahoma</option>
+		  			<option id="oregon">Oregon</option>
+		  			<option id="pennsylvania">Pennsylvania</option>
+		  			<option id="rhode">Rhode Island</option>
+		  			<option id="southc">South Carolina</option>
+		  			<option id="southd">South Dakota</option>
+		  			<option id="tennessee">Tennessee</option>
+		  			<option id="texas">Texas</option>
+		  			<option id="utah">Utah</option>
+		  			<option id="vermont">Vermont</option>
+		  			<option id="virginia">Virginia</option>
+		  			<option id="washington">Washington</option>
+		  			<option id="wvirginia">West Virginia</option>
+		  			<option id="wisconsin">Wisconsin</option>
+		  			<option id="wyoming">Wyoming</option>
+					</select>
+    </div><br>
+
+	<div class="form-row pl-4">
+      <label for="zip">ZIP Code*&nbsp;&nbsp;</label>
+      &nbsp;&nbsp;
+      <input name="zip" type="text" id="zip" placeholder="xxxxx" required>
+    </div><br>
+
+</fieldset>
+        
+        <div class="col-xl-11 text-center">		  <img src="images/zebra.jpg" class="img-fluid pt-4" alt="Zebras">
+          <p>Zebras - 2021 Africa Tour</div>
+<fieldset class="col-xl-6 mx-auto pl-4">
+  <legend class="pl-2"><b class="textshadow">Trip Information</b></legend>
+  
+  
+&nbsp;&nbsp;&nbsp;
+<br>
+
+			<div class="form-row pl-4">
+			  <label for="travelers">Number of Travelers<b>*</b></label> 
+			  &nbsp;&nbsp;&nbsp;
+			  <input name="travelers" id="travelers" value="1" step="1" min="1" max="100" type="number" required>
+			</div>
+<br>
+			<div class="form-row pl-4">
+			  <label for="tripstart">Start Date<b>*</b></label> 
+				&nbsp;&nbsp;&nbsp;
+				<input name="tripstart" id="tripstart" type="date" required>
+			</div><br>
+			<div class="form-row pl-4">
+			  <label for="destination">Package of Interest</label> 
+				<b>*</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<input name="destination" id="destination" type="text" required>
+			</div><br>
+			<div class="form-row pl-4">
+				<label>Purpose of Trip<b>*</b></label> 
+			  &nbsp;&nbsp;&nbsp;
+					<select name="purpose" id="purpose" size="1">
+					<option id="business">business</option>
+					<option id="pleasure">pleasure</option>
+					<option id="both">both</option>
+					</select>
+			</div><br>
+			<div class="form-row pl-4">
+				<label for="tripneeds">Trip Needs<b>*</b></label>
+<br>&nbsp;&nbsp;&nbsp;
+				<select name="tripneeds" id="tripneeds" size="4" multiple>
+				<option id="hotel">Hotel</option>
+				<option id="meals">Meal Package</option>
+				<option id="car">Rental Car</option>
+				<option id="guides">Guides</option>
+				</select>
+			</div>	<br>
+
+	<div class="form-row pl-4 pb-4">
+          <label id="comments">Comments</label>
+          <br>&nbsp;&nbsp;&nbsp;
+  			<textarea name="comments"></textarea>
+			</div>
+</fieldset>
+		</div><br>
+	  <div class="text-right pr-4 mt-3">
+			<input type="submit" id="submit" value="Submit">
+			<input id="reset" type="reset" value="Reset">
+	  </div>
+</form>
+</div>
+</div>
+<!-- InstanceEndEditable -->
+<hr>
+
+  <div class="bg-light texttan container-fluid col-xl-12">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="text-center">GET IN TOUCH</h3>
+      </div>
+      <div class="col-md-6 text-center">
+        <h4 class="pt-1"><b>&nbsp;See the World Travel Agency</b></h4>
+		<address>
+		7500 Main Street, Virginia Beach, Virginia 23455
+		</address>
+		<p>Email Us:<a href="mailto:sales@seetheworld.com" class="texttan"> sales@seetheworld.com</a></p>
+		<p>Call Us:<a href="tel:757-648-5800" class="texttan"> 757-648-5800</a></p>
+		<p>Visit Us: <a href="http://www.seetheworld.com/" class="texttan">www.seetheworld.com</a></p>
+      </div>
+      <div class="col-md-6 text-center"><img src="images/camper.jpg" class="img-fluid" alt="Placeholder image"></div>
+    </div>
+    </div>
+	
+<div class="container-fluid"> 
+	<div class="row">
+		<footer class="text-center bg-dark texttan col-12">
+            <p>© See the World by the ATC 2024. Madeline V.</p>
+		</footer>
+          </div>
+        </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+	  </div>
+  </body>
+<!-- InstanceEnd --></html>
