@@ -1,0 +1,45 @@
+/* reset */
+
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: 0;
+    font-size: 12pt;
+}
+
+/* content */
+
+.card {
+    max-width: 18rem !important;
+    height: 500px !important;
+}
+#search {
+    font-size: 14pt;
+}
+p {
+    font-family: "PT Sans", sans-serif;
+}
+h2, h1 {
+    font-family: "Oswald", sans-serif;
+}
+.check-card {
+    max-width: 400px !important;
+    height: 565px !important;
+}
+.nav-link {
+    font-family: "PT Sans", sans-serif !important;
+    font-size: 15pt !important;
+    color: #2a5524 !important;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+.nav-link:hover {
+    font-family: "PT Sans", sans-serif !important;
+    color: #2f2cd6 !important;
+}
+.btn-primary, .btn {
+    font-family: "PT Sans", sans-serif !important;
+    font-size: 10pt !important;
+    background-color: #2f2cd6 !important;
+    color: white !important;
+}
